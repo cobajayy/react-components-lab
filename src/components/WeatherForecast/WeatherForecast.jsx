@@ -7,8 +7,8 @@ const WeatherForecast = (props) => {
   console.log(weatherForecast)
   return (
     <section>
-      <h2>{weatherForecast.day}</h2>
       <div className="weather">
+        <h2>{weatherForecast.day}</h2>
         <WeatherIcon
           img= {weatherForecast.img}
           imgAlt= {weatherForecast.imgAlt}

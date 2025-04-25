@@ -1,4 +1,3 @@
-// src/App.jsx
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
 
 const App = () => {
